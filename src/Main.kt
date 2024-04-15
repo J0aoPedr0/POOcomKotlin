@@ -18,11 +18,12 @@ class cachorro():Mamifero(), Selvagem{
     override fun atacar() {
         println("Morder a bunda")
     }
+
 }
 fun main(){
     val objeto = cachorro()
     objeto.acordar()
-    var c1 = cachorro()
+    val c1 = cachorro()
     c1.falar()
     c1.dormir()
 }
